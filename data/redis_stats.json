@@ -1,0 +1,30 @@
+{
+  "shipwreck_summary": {
+    "source": "shipwrecks.json",
+    "source_sha256": "5b62f58ff763f55a1c80d1c38d781f65eb681449bd769ac6aed40db7455180ba",
+    "total_records": 11095,
+    "feature_type_counts": {
+      "(unspecified)": 64,
+      "Wrecks - Submerged, dangerous": 6578,
+      "Wrecks - Submerged, nondangerous": 1845,
+      "Wrecks - Visible": 2585,
+      "distributed remains of wreck": 23
+    },
+    "depth_unknown_records": 5573,
+    "zero_depth_records": 8520,
+    "depth_note": "Depth values are reproduced as stored. Zero or unknown values are not confirmed measured depths; units are not supplied in this file."
+  },
+  "water_level_counts": {
+    "source": "shipwrecks.json",
+    "source_sha256": "5b62f58ff763f55a1c80d1c38d781f65eb681449bd769ac6aed40db7455180ba",
+    "total_records": 11095,
+    "water_level_counts": {
+      "(unspecified)": 3,
+      "always dry": 2329,
+      "always under water/submerged": 8399,
+      "awash": 15,
+      "covers and uncovers": 260,
+      "partly submerged at high water": 89
+    }
+  }
+}
