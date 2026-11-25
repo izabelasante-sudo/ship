@@ -1,0 +1,281 @@
+{
+  "checked_at_utc": "2026-11-25T16:34:10.135821+00:00",
+  "dataset_sha256": "5b62f58ff763f55a1c80d1c38d781f65eb681449bd769ac6aed40db7455180ba",
+  "source_records": 11095,
+  "mongo_records": 11095,
+  "mongo_matches_source": true,
+  "comparisons": [
+    {
+      "tool": "search_shipwrecks",
+      "arguments": {
+        "feature_type": "Wrecks - Visible",
+        "limit": 3
+      },
+      "rest_status": 200,
+      "rest": {
+        "count": 3,
+        "depth_note": "Depth values are reproduced as stored. Zero or unknown values are not confirmed measured depths; units are not supplied in this file.",
+        "limit": 3,
+        "matched_count": 2585,
+        "shipwrecks": [
+          {
+            "_id": "578f6fa2df35c7fbdbaed8c4",
+            "depth": 0,
+            "feature_type": "Wrecks - Visible",
+            "latdec": 9.3547792,
+            "londec": -79.9081268,
+            "quasou": "",
+            "watlev": "always dry"
+          },
+          {
+            "_id": "578f6fa2df35c7fbdbaed8c5",
+            "depth": 0,
+            "feature_type": "Wrecks - Visible",
+            "latdec": 9.3340302,
+            "londec": -79.9357223,
+            "quasou": "",
+            "watlev": "always dry"
+          },
+          {
+            "_id": "578f6fa2df35c7fbdbaed8c7",
+            "depth": 0,
+            "feature_type": "Wrecks - Visible",
+            "latdec": 9.3390503,
+            "londec": -79.9137115,
+            "quasou": "",
+            "watlev": "always dry"
+          }
+        ],
+        "source": "shipwrecks.json"
+      },
+      "mcp": {
+        "count": 3,
+        "depth_note": "Depth values are reproduced as stored. Zero or unknown values are not confirmed measured depths; units are not supplied in this file.",
+        "limit": 3,
+        "matched_count": 2585,
+        "shipwrecks": [
+          {
+            "_id": "578f6fa2df35c7fbdbaed8c4",
+            "depth": 0,
+            "feature_type": "Wrecks - Visible",
+            "latdec": 9.3547792,
+            "londec": -79.9081268,
+            "quasou": "",
+            "watlev": "always dry"
+          },
+          {
+            "_id": "578f6fa2df35c7fbdbaed8c5",
+            "depth": 0,
+            "feature_type": "Wrecks - Visible",
+            "latdec": 9.3340302,
+            "londec": -79.9357223,
+            "quasou": "",
+            "watlev": "always dry"
+          },
+          {
+            "_id": "578f6fa2df35c7fbdbaed8c7",
+            "depth": 0,
+            "feature_type": "Wrecks - Visible",
+            "latdec": 9.3390503,
+            "londec": -79.9137115,
+            "quasou": "",
+            "watlev": "always dry"
+          }
+        ],
+        "source": "shipwrecks.json"
+      },
+      "match": true,
+      "matches_source": true
+    },
+    {
+      "tool": "get_statistics",
+      "arguments": {
+        "key": "shipwreck_summary"
+      },
+      "rest_status": 200,
+      "rest": {
+        "key": "shipwreck_summary",
+        "value": {
+          "depth_note": "Depth values are reproduced as stored. Zero or unknown values are not confirmed measured depths; units are not supplied in this file.",
+          "depth_unknown_records": 5573,
+          "feature_type_counts": {
+            "(unspecified)": 64,
+            "Wrecks - Submerged, dangerous": 6578,
+            "Wrecks - Submerged, nondangerous": 1845,
+            "Wrecks - Visible": 2585,
+            "distributed remains of wreck": 23
+          },
+          "source": "shipwrecks.json",
+          "source_sha256": "5b62f58ff763f55a1c80d1c38d781f65eb681449bd769ac6aed40db7455180ba",
+          "total_records": 11095,
+          "zero_depth_records": 8520
+        }
+      },
+      "mcp": {
+        "key": "shipwreck_summary",
+        "value": {
+          "depth_note": "Depth values are reproduced as stored. Zero or unknown values are not confirmed measured depths; units are not supplied in this file.",
+          "depth_unknown_records": 5573,
+          "feature_type_counts": {
+            "(unspecified)": 64,
+            "Wrecks - Submerged, dangerous": 6578,
+            "Wrecks - Submerged, nondangerous": 1845,
+            "Wrecks - Visible": 2585,
+            "distributed remains of wreck": 23
+          },
+          "source": "shipwrecks.json",
+          "source_sha256": "5b62f58ff763f55a1c80d1c38d781f65eb681449bd769ac6aed40db7455180ba",
+          "total_records": 11095,
+          "zero_depth_records": 8520
+        }
+      },
+      "match": true,
+      "matches_source": true
+    },
+    {
+      "tool": "get_statistics",
+      "arguments": {
+        "key": "water_level_counts"
+      },
+      "rest_status": 200,
+      "rest": {
+        "key": "water_level_counts",
+        "value": {
+          "source": "shipwrecks.json",
+          "source_sha256": "5b62f58ff763f55a1c80d1c38d781f65eb681449bd769ac6aed40db7455180ba",
+          "total_records": 11095,
+          "water_level_counts": {
+            "(unspecified)": 3,
+            "always dry": 2329,
+            "always under water/submerged": 8399,
+            "awash": 15,
+            "covers and uncovers": 260,
+            "partly submerged at high water": 89
+          }
+        }
+      },
+      "mcp": {
+        "key": "water_level_counts",
+        "value": {
+          "source": "shipwrecks.json",
+          "source_sha256": "5b62f58ff763f55a1c80d1c38d781f65eb681449bd769ac6aed40db7455180ba",
+          "total_records": 11095,
+          "water_level_counts": {
+            "(unspecified)": 3,
+            "always dry": 2329,
+            "always under water/submerged": 8399,
+            "awash": 15,
+            "covers and uncovers": 260,
+            "partly submerged at high water": 89
+          }
+        }
+      },
+      "match": true,
+      "matches_source": true
+    }
+  ],
+  "validation": [
+    {
+      "tool": "search_shipwrecks",
+      "arguments": {
+        "limit": 0
+      },
+      "rejected": true,
+      "rest_status": 400
+    },
+    {
+      "tool": "search_shipwrecks",
+      "arguments": {
+        "limit": 21
+      },
+      "rejected": true,
+      "rest_status": 400
+    },
+    {
+      "tool": "search_shipwrecks",
+      "arguments": {
+        "feature_type": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      },
+      "rejected": true,
+      "rest_status": 400
+    },
+    {
+      "tool": "get_statistics",
+      "arguments": {
+        "key": "active_users"
+      },
+      "rejected": true,
+      "rest_status": 400
+    },
+    {
+      "tool": "get_statistics",
+      "arguments": {
+        "key": "not_allowed"
+      },
+      "rejected": true,
+      "rest_status": 400
+    }
+  ],
+  "tools": [
+    {
+      "name": "search_shipwrecks",
+      "title": null,
+      "description": "Search MongoDB shipwreck records by exact category and/or water level (case-insensitive). Examples: feature_type='Wrecks - Visible' or 'Wrecks - Submerged, dangerous'; water_level='always dry'. Empty filters match all. limit is 1 to 20, default 3. Returns a sample and matched_count, not every matching record. Depth units are unspecified; zero/unknown depth is not a confirmed measurement.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "feature_type": {
+            "default": "",
+            "title": "Feature Type",
+            "type": "string"
+          },
+          "water_level": {
+            "default": "",
+            "title": "Water Level",
+            "type": "string"
+          },
+          "limit": {
+            "default": 3,
+            "title": "Limit",
+            "type": "integer"
+          }
+        },
+        "title": "search_shipwrecksArguments"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": null,
+      "meta": null
+    },
+    {
+      "name": "get_statistics",
+      "title": null,
+      "description": "Read Redis counts calculated from the complete supplied shipwrecks.json. key='shipwreck_summary' returns total records, counts by feature type and depth-quality counts. key='water_level_counts' returns counts by water level. These are dataset records, not live app users or global wreck totals.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "Key",
+            "type": "string"
+          }
+        },
+        "required": [
+          "key"
+        ],
+        "title": "get_statisticsArguments"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "filter_checks": {
+    "regex_treated_literally": true,
+    "no_match_is_empty": true,
+    "combined_case_insensitive_filter": true
+  },
+  "passed": true
+}

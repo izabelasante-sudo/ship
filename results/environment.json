@@ -1,0 +1,23 @@
+{
+  "python": "3.14.8",
+  "packages": {
+    "Flask": "3.1.3",
+    "pymongo": "4.19.0",
+    "redis": "6.4.0",
+    "mcp": "2.3.0",
+    "httpx": "0.28.1",
+    "ollama": "0.6.3",
+    "python-dotenv": "1.2.4"
+  },
+  "mongo_version": "8.0.39-patch-a3d00565977",
+  "mongo_roles": [
+    {
+      "role": "read",
+      "db": "mcp_group_lab"
+    }
+  ],
+  "redis_version": "8.2.11",
+  "ollama_version": {
+    "version": "0.40.14"
+  }
+}

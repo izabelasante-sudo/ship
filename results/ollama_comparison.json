@@ -1,0 +1,22 @@
+{
+  "completed": true,
+  "dataset_sha256": "5b62f58ff763f55a1c80d1c38d781f65eb681449bd769ac6aed40db7455180ba",
+  "tool_results": [
+    {
+      "tool": "search_shipwrecks",
+      "selected_arguments": {
+        "feature_type": "Wrecks - Visible",
+        "limit": 3
+      },
+      "matches_direct_data": true
+    },
+    {
+      "tool": "get_statistics",
+      "selected_arguments": {
+        "key": "shipwreck_summary"
+      },
+      "matches_direct_data": true
+    }
+  ],
+  "passed": true
+}
